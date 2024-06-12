@@ -1,0 +1,4 @@
+# config/packages/weather_map_api.yaml
+parameters:
+    weathermap_api_key: '%env(WEATHERMAP_API_KEY)%'
+    weathermap_api_url: '%env(WEATHERMAP_API_URL)%'
